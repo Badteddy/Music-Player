@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  Music-Player
 //
-//  Created by King on 16/5/19.
+//  Created by King on 16/3/10.
 //  Copyright © 2016年 King. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "WWViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *naVc = [[UINavigationController alloc] initWithRootViewController:[[WWViewController alloc] init]];
+    
+    self.window.rootViewController = naVc;
+    
     return YES;
 }
 
@@ -28,7 +35,18 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    UIBackgroundTaskIdentifier taskID = [application beginBackgroundTaskWithExpirationHandler:^{
+        
+    }];
+    
+    if (taskID != UIBackgroundTaskInvalid) {
+        [[UIApplication sharedApplication] endBackgroundTask:taskID];
+    }
+
+    
 }
+
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.

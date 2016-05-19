@@ -1,18 +1,18 @@
 //
-//  Music_PlayerTests.m
-//  Music-PlayerTests
+//  ZYMusicPlayerTests.m
+//  ZYMusicPlayerTests
 //
-//  Created by King on 16/3/10.
+//  Created by King on 16/3/20.
 //  Copyright © 2016年 King. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Music_PlayerTests : XCTestCase
+@interface ZYMusicPlayerTests : XCTestCase
 
 @end
 
-@implementation Music_PlayerTests
+@implementation ZYMusicPlayerTests
 
 - (void)setUp {
     [super setUp];
@@ -27,13 +27,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    XCTFail(@"no implementation for app",__PRETTY_FUNCTION__);
 }
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
-        // Put the code you want to measure the time of here.
     }];
 }
+
 
 @end

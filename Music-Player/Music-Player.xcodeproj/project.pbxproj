@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CE2464E1CEDA00C0054EF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2464D1CEDA00C0054EF2A /* main.m */; };
 		3CE246511CEDA00C0054EF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246501CEDA00C0054EF2A /* AppDelegate.m */; };
-		3CE246571CEDA00D0054EF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE246551CEDA00D0054EF2A /* Main.storyboard */; };
 		3CE246591CEDA00D0054EF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE246581CEDA00D0054EF2A /* Assets.xcassets */; };
-		3CE2465C1CEDA00D0054EF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2465A1CEDA00D0054EF2A /* LaunchScreen.storyboard */; };
 		3CE246671CEDA00D0054EF2A /* Music_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246661CEDA00D0054EF2A /* Music_PlayerTests.m */; };
 		3CE246721CEDA00D0054EF2A /* Music_PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246711CEDA00D0054EF2A /* Music_PlayerUITests.m */; };
 		3CE246911CEDA4AD0054EF2A /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2468E1CEDA4AD0054EF2A /* UIView+AutoLayout.m */; };
@@ -26,9 +24,7 @@
 		3CE246D41CEDA5590054EF2A /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246C81CEDA5590054EF2A /* NSObject+MJCoding.m */; };
 		3CE246D51CEDA5590054EF2A /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246CA1CEDA5590054EF2A /* NSObject+MJIvar.m */; };
 		3CE246D61CEDA5590054EF2A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246CC1CEDA5590054EF2A /* NSObject+MJKeyValue.m */; };
-		3CE246D91CEDA5A70054EF2A /* WWViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246D81CEDA5A70054EF2A /* WWViewControllerTableViewController.m */; };
 		3CE246DC1CEDA5D40054EF2A /* WWPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246DB1CEDA5D40054EF2A /* WWPlayingViewController.m */; };
-		3CE246DE1CEDA5EE0054EF2A /* WWPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE246DD1CEDA5EE0054EF2A /* WWPlayingViewController.xib */; };
 		3CE246E11CEDA6060054EF2A /* WWMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246E01CEDA6060054EF2A /* WWMusic.m */; };
 		3CE246E41CEDA6190054EF2A /* WWLrcLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246E31CEDA6190054EF2A /* WWLrcLine.m */; };
 		3CE246E71CEDA6350054EF2A /* WWAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE246E61CEDA6350054EF2A /* WWAudioManager.m */; };
@@ -74,6 +70,11 @@
 		3CE247931CEDA8070054EF2A /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2476E1CEDA8070054EF2A /* 309769.mp3 */; };
 		3CE247941CEDA8070054EF2A /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2476F1CEDA8070054EF2A /* 339744.mp3 */; };
 		3CE247951CEDA8070054EF2A /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CE247701CEDA8070054EF2A /* Musics.plist */; };
+		3CE247981CEDAE000054EF2A /* WWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE247971CEDAE000054EF2A /* WWViewController.m */; };
+		3CE2479A1CEDB6F20054EF2A /* WWPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE247991CEDB6F20054EF2A /* WWPlayingViewController.xib */; };
+		3CE247A11CEDB9320054EF2A /* WWAudioManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2479E1CEDB9320054EF2A /* WWAudioManagerTests.m */; };
+		3CE247A21CEDB9320054EF2A /* WWLrcLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2479F1CEDB9320054EF2A /* WWLrcLineTests.m */; };
+		3CE247A51CEDBEE40054EF2A /* cc_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CE247A41CEDBEE40054EF2A /* cc_icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,9 +99,7 @@
 		3CE2464D1CEDA00C0054EF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CE2464F1CEDA00C0054EF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CE246501CEDA00C0054EF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CE246561CEDA00D0054EF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CE246581CEDA00D0054EF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3CE2465B1CEDA00D0054EF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE2465D1CEDA00D0054EF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE246621CEDA00D0054EF2A /* Music-PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music-PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE246661CEDA00D0054EF2A /* Music_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music_PlayerTests.m; sourceTree = "<group>"; };
@@ -133,11 +132,8 @@
 		3CE246CA1CEDA5590054EF2A /* NSObject+MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJIvar.m"; sourceTree = "<group>"; };
 		3CE246CB1CEDA5590054EF2A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		3CE246CC1CEDA5590054EF2A /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		3CE246D71CEDA5A70054EF2A /* WWViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWViewControllerTableViewController.h; sourceTree = "<group>"; };
-		3CE246D81CEDA5A70054EF2A /* WWViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWViewControllerTableViewController.m; sourceTree = "<group>"; };
 		3CE246DA1CEDA5D40054EF2A /* WWPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWPlayingViewController.h; sourceTree = "<group>"; };
 		3CE246DB1CEDA5D40054EF2A /* WWPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWPlayingViewController.m; sourceTree = "<group>"; };
-		3CE246DD1CEDA5EE0054EF2A /* WWPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPlayingViewController.xib; sourceTree = "<group>"; };
 		3CE246DF1CEDA6060054EF2A /* WWMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMusic.h; sourceTree = "<group>"; };
 		3CE246E01CEDA6060054EF2A /* WWMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMusic.m; sourceTree = "<group>"; };
 		3CE246E21CEDA6190054EF2A /* WWLrcLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWLrcLine.h; sourceTree = "<group>"; };
@@ -191,6 +187,12 @@
 		3CE2476E1CEDA8070054EF2A /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
 		3CE2476F1CEDA8070054EF2A /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
 		3CE247701CEDA8070054EF2A /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		3CE247961CEDAE000054EF2A /* WWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWViewController.h; sourceTree = "<group>"; };
+		3CE247971CEDAE000054EF2A /* WWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
+		3CE247991CEDB6F20054EF2A /* WWPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPlayingViewController.xib; sourceTree = "<group>"; };
+		3CE2479E1CEDB9320054EF2A /* WWAudioManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWAudioManagerTests.m; path = "Music-Player/WWAudioManagerTests.m"; sourceTree = SOURCE_ROOT; };
+		3CE2479F1CEDB9320054EF2A /* WWLrcLineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWLrcLineTests.m; path = "Music-Player/WWLrcLineTests.m"; sourceTree = SOURCE_ROOT; };
+		3CE247A41CEDBEE40054EF2A /* cc_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cc_icon.jpg; path = ../../../../../Downloads/cc_icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,9 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				3CE246851CEDA2CB0054EF2A /* Classes */,
-				3CE246551CEDA00D0054EF2A /* Main.storyboard */,
 				3CE246581CEDA00D0054EF2A /* Assets.xcassets */,
-				3CE2465A1CEDA00D0054EF2A /* LaunchScreen.storyboard */,
 				3CE2465D1CEDA00D0054EF2A /* Info.plist */,
 				3CE2464C1CEDA00C0054EF2A /* Supporting Files */,
 			);
@@ -263,6 +263,8 @@
 		3CE246651CEDA00D0054EF2A /* Music-PlayerTests */ = {
 			isa = PBXGroup;
 			children = (
+				3CE2479E1CEDB9320054EF2A /* WWAudioManagerTests.m */,
+				3CE2479F1CEDB9320054EF2A /* WWLrcLineTests.m */,
 				3CE246661CEDA00D0054EF2A /* Music_PlayerTests.m */,
 				3CE246681CEDA00D0054EF2A /* Info.plist */,
 			);
@@ -317,11 +319,11 @@
 		3CE246881CEDA2E50054EF2A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3CE246D71CEDA5A70054EF2A /* WWViewControllerTableViewController.h */,
-				3CE246D81CEDA5A70054EF2A /* WWViewControllerTableViewController.m */,
+				3CE247961CEDAE000054EF2A /* WWViewController.h */,
+				3CE247971CEDAE000054EF2A /* WWViewController.m */,
 				3CE246DA1CEDA5D40054EF2A /* WWPlayingViewController.h */,
 				3CE246DB1CEDA5D40054EF2A /* WWPlayingViewController.m */,
-				3CE246DD1CEDA5EE0054EF2A /* WWPlayingViewController.xib */,
+				3CE247991CEDB6F20054EF2A /* WWPlayingViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -422,6 +424,7 @@
 		3CE247491CEDA8070054EF2A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3CE247A41CEDBEE40054EF2A /* cc_icon.jpg */,
 				3CE2474A1CEDA8070054EF2A /* bb@2x.jpg */,
 				3CE2474B1CEDA8070054EF2A /* bb_icon@2x.jpg */,
 				3CE2474C1CEDA8070054EF2A /* dzq@2x.jpg */,
@@ -584,7 +587,6 @@
 			files = (
 				3CE247891CEDA8070054EF2A /* 255319.lrc in Resources */,
 				3CE2478D1CEDA8070054EF2A /* 10736444.mp3 in Resources */,
-				3CE2465C1CEDA00D0054EF2A /* LaunchScreen.storyboard in Resources */,
 				3CE247721CEDA8070054EF2A /* bb_icon@2x.jpg in Resources */,
 				3CE247911CEDA8070054EF2A /* 235319.mp3 in Resources */,
 				3CE2477C1CEDA8070054EF2A /* kzxd_icon@2x.jpg in Resources */,
@@ -592,11 +594,9 @@
 				3CE247761CEDA8070054EF2A /* eason_icon@2x.jpg in Resources */,
 				3CE247871CEDA8070054EF2A /* 14945107.lrc in Resources */,
 				3CE247951CEDA8070054EF2A /* Musics.plist in Resources */,
-				3CE246DE1CEDA5EE0054EF2A /* WWPlayingViewController.xib in Resources */,
 				3CE247751CEDA8070054EF2A /* eason@2x.jpg in Resources */,
 				3CE247831CEDA8070054EF2A /* 10405520.lrc in Resources */,
 				3CE246591CEDA00D0054EF2A /* Assets.xcassets in Resources */,
-				3CE246571CEDA00D0054EF2A /* Main.storyboard in Resources */,
 				3CE2478E1CEDA8070054EF2A /* 120125029.mp3 in Resources */,
 				3CE247921CEDA8070054EF2A /* 255319.mp3 in Resources */,
 				3CE2477A1CEDA8070054EF2A /* jj_icon@2x.png in Resources */,
@@ -608,6 +608,8 @@
 				3CE247941CEDA8070054EF2A /* 339744.mp3 in Resources */,
 				3CE247881CEDA8070054EF2A /* 235319.lrc in Resources */,
 				3CE247801CEDA8070054EF2A /* wf_icon@2x.jpg in Resources */,
+				3CE2479A1CEDB6F20054EF2A /* WWPlayingViewController.xib in Resources */,
+				3CE247A51CEDBEE40054EF2A /* cc_icon.jpg in Resources */,
 				3CE247931CEDA8070054EF2A /* 309769.mp3 in Resources */,
 				3CE247791CEDA8070054EF2A /* jj@2x.jpg in Resources */,
 				3CE247861CEDA8070054EF2A /* 12309111.lrc in Resources */,
@@ -649,10 +651,10 @@
 			files = (
 				3CE246F01CEDA67A0054EF2A /* WWLrcView.m in Sources */,
 				3CE246921CEDA4AD0054EF2A /* UIView+Extension.m in Sources */,
+				3CE247981CEDAE000054EF2A /* WWViewController.m in Sources */,
 				3CE246D21CEDA5590054EF2A /* MJIvar.m in Sources */,
 				3CE246CD1CEDA5590054EF2A /* Colours.m in Sources */,
 				3CE246D31CEDA5590054EF2A /* MJType.m in Sources */,
-				3CE246D91CEDA5A70054EF2A /* WWViewControllerTableViewController.m in Sources */,
 				3CE246DC1CEDA5D40054EF2A /* WWPlayingViewController.m in Sources */,
 				3CE246D11CEDA5590054EF2A /* MJFoundation.m in Sources */,
 				3CE246CE1CEDA5590054EF2A /* DRNRealTimeBlurView.m in Sources */,
@@ -678,6 +680,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE247A21CEDB9320054EF2A /* WWLrcLineTests.m in Sources */,
+				3CE247A11CEDB9320054EF2A /* WWAudioManagerTests.m in Sources */,
 				3CE246671CEDA00D0054EF2A /* Music_PlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -704,25 +708,6 @@
 			targetProxy = 3CE2466E1CEDA00D0054EF2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3CE246551CEDA00D0054EF2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CE246561CEDA00D0054EF2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3CE2465A1CEDA00D0054EF2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CE2465B1CEDA00D0054EF2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3CE246741CEDA00D0054EF2A /* Debug */ = {
@@ -896,6 +881,7 @@
 				3CE246781CEDA00D0054EF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CE246791CEDA00D0054EF2A /* Build configuration list for PBXNativeTarget "Music-PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -904,6 +890,7 @@
 				3CE2467B1CEDA00D0054EF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CE2467C1CEDA00D0054EF2A /* Build configuration list for PBXNativeTarget "Music-PlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -912,6 +899,7 @@
 				3CE2467E1CEDA00D0054EF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

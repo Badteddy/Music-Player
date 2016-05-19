@@ -1,5 +1,5 @@
 //
-//  WWPlayingViewController.h
+//  WWViewController.h
 //  Music-Player
 //
 //  Created by King on 16/3/10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WWPlayingViewController : UIViewController
-- (void)show;
+@interface WWViewController : UITableViewController
+
 @end
